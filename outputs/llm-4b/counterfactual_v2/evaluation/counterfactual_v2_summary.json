@@ -1,0 +1,13 @@
+{
+  "version": "counterfactual_v2",
+  "dataset_rows": 232,
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "counterfactual_follow": 112,
+  "gold_follow": 8,
+  "other": 112,
+  "CFR": 0.4827586206896552,
+  "GFR": 0.034482758620689655,
+  "other_rate": 0.4827586206896552,
+  "answers_file": "/content/drive/MyDrive/rag_stress/counterfactual_v2/outputs/counterfactual_v2_answers.jsonl",
+  "evaluated_file": "/content/drive/MyDrive/rag_stress/counterfactual_v2/evaluation/counterfactual_v2_evaluated.jsonl"
+}

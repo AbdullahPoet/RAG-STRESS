@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "analysis_version": "counterfactual_v2",
+  "n_clean": 500,
+  "n_distractor_rows": 1500,
+  "n_position_rows": 1500,
+  "n_counterfactual_v2": 232,
+  "distractor": {
+    "clean_em": 0.492,
+    "D1_em": 0.462,
+    "D3_em": 0.434,
+    "D5_em": 0.43,
+    "clean_correct_n": 246,
+    "clean_correct_to_D1_wrong_rate": 0.09349593495934959,
+    "clean_correct_to_D3_wrong_rate": 0.15853658536585366,
+    "clean_correct_to_D5_wrong_rate": 0.16260162601626016
+  },
+  "position": {
+    "beginning_em": 0.432,
+    "middle_em": 0.42,
+    "end_em": 0.444,
+    "strict_lost_middle_count": 7,
+    "strict_lost_middle_rate": 0.014,
+    "middle_fail_given_edge_success": 0.15163934426229508
+  },
+  "counterfactual_v2": {
+    "n": 232,
+    "CFR": 0.4827586206896552,
+    "GFR": 0.034482758620689655,
+    "OTHER_rate": 0.4827586206896552
+  }
+}

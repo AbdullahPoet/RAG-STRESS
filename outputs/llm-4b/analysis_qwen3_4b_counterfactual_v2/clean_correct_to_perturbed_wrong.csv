@@ -1,0 +1,4 @@
+condition,clean_correct_n,clean_correct_to_wrong,failure_rate_given_clean_correct
+D1,246,23,0.09349593495934959
+D3,246,39,0.15853658536585366
+D5,246,40,0.16260162601626016
