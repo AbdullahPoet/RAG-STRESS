@@ -856,15 +856,14 @@ Failure-mode analysis
 The main notebooks include:
 
 ```text
-05_run_llm_inference_T4_vllm.ipynb
-06_evaluate_rag_stress.ipynb
-06b_fix_counterfactual_evaluation_drive.ipynb
-07_statistical_analysis_and_failure_modes.ipynb
-08_qwen35_9b_L4_inference_and_model_comparison.ipynb
-09_counterfactual_v2_infer_evaluate_drive.ipynb
-10_qwen3_4b_analysis_with_counterfactual_v2_drive.ipynb
-11_qwen35_9b_L4_full_inference_evaluation_drive.ipynb
-12_qwen35_9b_statistical_analysis_drive.ipynb
+01_run_llm_inference.ipynb
+02_evaluate_rag_stress.ipynb
+02b_fix_counterfactual_inference.ipynb
+02c_counterfactual_v2_infer_evaluation.ipynb
+03_qwen3_4b_analysis.ipynb
+01_qwen35_9b_L4_full_inference_evaluation.ipynb
+02_qwen35_9b_statistical_analysis.ipynb
+in the notebooks directory
 ```
 
 ---
