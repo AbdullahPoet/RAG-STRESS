@@ -1,0 +1,11 @@
+id,model_answer_beginning,model_answer_end,model_answer_middle,em_beginning,em_end,em_middle,f1_beginning,f1_end,f1_middle,trajectory,question,gold_answer
+5a75357c5542996c70cfaeab,Bobby Keys,Bobby Keys,Joe Cocker,1,1,0,1.0,1.0,0.0,1->0->1,"Who was born first, Bobby Keys or Joe Cocker?","""Bobby"" Keys"
+5a773c5c55429966f1a36cbb,Preston North End,Preston North End,Preston North End Football Club,1,1,0,1.0,1.0,0.7499999999999999,1->0->1,What Deepdale area football club did Andy Pilling play for?,Preston North End
+5a77c1505542997042120b1b,We'll Burn That Bridge,We'll Burn That Bridge,Chattahoochee,1,1,0,1.0,1.0,0.0,1->0->1,"Which song was behind the third single on the album  ""A Lot About Livin' (And a Little 'bout Love)"" for two weeks on the country charts?","""We'll Burn That Bridge"""
+5a85f4425542994775f606c4,documentary,Documentary,INSUFFICIENT_EVIDENCE,1,1,0,1.0,1.0,0.0,1->0->1,"What movie genre does both ""The Trials of Life"" and ""Human"" belong to?",documentary
+5a8832d355429938390d3f03,Prince of Cambodia Norodom Sihanouk,Prince of Cambodia Norodom Sihanouk,Norodom Sihanouk,1,1,0,1.0,1.0,0.5714285714285715,1->0->1,Who was the ruler ousted by the 30th Prime Minister of Cambodia after Khmer Rouge's victory over the Lon Nol government?,Prince of Cambodia Norodom Sihanouk
+5a88a5645542997e5c09a679,Take It Easy,Take It Easy,Personal Preference,1,1,0,1.0,1.0,0.0,1->0->1,"Which was published first, Take It Easy or Personal Preference?",Take It Easy
+5ab6ba9d5542995eadef0083,Naomi,Naomi,Wynonna,1,1,0,1.0,1.0,0.0,1->0->1,What is the first name of the mother of the artist who interpreted Karla  Bonoff's Tell Me Why ?,Naomi
+5abe36aa5542993f32c2a08f,American Scientist,American Scientist,Dwell,1,1,0,1.0,1.0,0.0,1->0->1,Was American Scientist or Dwell published first?,American Scientist
+5ac2759655429921a00aaf7f,Rock,Rock,INSUFFICIENT_EVIDENCE,1,1,0,1.0,1.0,0.0,1->0->1,What genre of music did Benjamin Burnley and Yannis Philippakis have in common?,rock
+5adf3e355542993a75d26440,8 km,8 km,The bridge is nearly 8 km long.,1,1,0,1.0,1.0,0.5,1->0->1,"How long is the bridge in the Öresund Region that connect Copenhagen, Denmark and Malmo, Sweden?",8 km

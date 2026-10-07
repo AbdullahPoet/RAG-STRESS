@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "n_clean": 500,
+  "n_distractor_rows": 1500,
+  "n_position_rows": 1500,
+  "n_counterfactual_v2": 232,
+  "distractor": {
+    "clean_em": 0.62,
+    "D1_em": 0.606,
+    "D3_em": 0.602,
+    "D5_em": 0.606,
+    "clean_correct_n": 310,
+    "clean_correct_to_D1_wrong_rate": 0.04516129032258064,
+    "clean_correct_to_D3_wrong_rate": 0.07419354838709677,
+    "clean_correct_to_D5_wrong_rate": 0.07419354838709677
+  },
+  "position": {
+    "beginning_em": 0.6,
+    "middle_em": 0.582,
+    "end_em": 0.598,
+    "strict_lost_middle_count": 10,
+    "strict_lost_middle_rate": 0.02,
+    "middle_fail_given_edge_success": 0.07643312101910828
+  },
+  "counterfactual_v2": {
+    "CFR": 0.5948275862068966,
+    "GFR": 0.03017241379310345,
+    "OTHER_rate": 0.375
+  }
+}
