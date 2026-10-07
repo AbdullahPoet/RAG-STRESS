@@ -1,0 +1,24 @@
+{
+  "source_questions": 500,
+  "clean_rows": 500,
+  "distractor_rows": 1500,
+  "position_rows": 1500,
+  "counterfactual_rows": 439,
+  "counterfactual_skipped": 61,
+  "hard_negatives": 2500,
+  "minimum_semantic_score_required": 0.35,
+  "actual_min_score": 0.3503581054479893,
+  "mean_score": 0.7017465574271049,
+  "median_score": 0.7103199494515564,
+  "p10": 0.4722155326307146,
+  "p25": 0.5881111549560692,
+  "p75": 0.8333266399078816,
+  "p90": 0.9102248241465144,
+  "hard_negative_sources": {
+    "local_hotpotqa": 1340,
+    "gold_non_supporting": 1034,
+    "global_hotpotqa": 109,
+    "gold_answer_masked": 13,
+    "gold_answer_masked_combined": 4
+  }
+}

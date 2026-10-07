@@ -1,0 +1,35 @@
+{
+  "source_questions": 500,
+  "counterfactual_examples": 431,
+  "skipped_examples": 69,
+  "gold_equals_counterfactual": 0,
+  "counterfactual_missing": 0,
+  "residual_gold_leakage": 0,
+  "no_change_rows": 0,
+  "counterfactual_types": {
+    "COMPANY": 4,
+    "NUMERIC": 85,
+    "TV_SHOW": 2,
+    "BAND": 3,
+    "ENTITY": 246,
+    "PERSON": 44,
+    "FILM": 5,
+    "BOOK": 1,
+    "COUNTRY": 11,
+    "GENRE": 1,
+    "CITY": 15,
+    "LOCATION": 11,
+    "ORGANIZATION": 2,
+    "MATERIAL": 1
+  },
+  "replacement_sources": {
+    "type_consistent_bank": 231,
+    "numeric_transform": 85,
+    "question_alternative": 115
+  },
+  "skip_reasons": {
+    "generic_text_answer": 49,
+    "answer_not_verbatim_in_supporting_sentence": 8,
+    "residual_gold_answer_after_replacement": 12
+  }
+}

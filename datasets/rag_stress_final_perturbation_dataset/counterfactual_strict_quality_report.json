@@ -1,0 +1,63 @@
+{
+  "input_rows": 431,
+  "accepted_rows": 232,
+  "skipped_rows": 199,
+  "residual_gold_leakage": 0,
+  "counterfactual_missing": 0,
+  "same_as_gold": 0,
+  "quality_policy": {
+    "high_confidence_type_only": true,
+    "explicit_question_alternatives_allowed": true,
+    "ambiguous_entity_bucket_removed": true,
+    "question_aware_numeric_transforms": true,
+    "cross_type_replacements_removed": true,
+    "title_and_text_replacement": true
+  },
+  "type_distribution": {
+    "VIDEO_GAME_COMPANY": 1,
+    "NUMERIC": 85,
+    "TV_SHOW": 3,
+    "BAND": 5,
+    "PERSON_AVIATOR": 1,
+    "PERSON_ATHLETE": 5,
+    "PERSON_BUSINESS": 1,
+    "EXPLICIT_ALTERNATIVE": 19,
+    "PERSON_DIRECTOR": 6,
+    "FILM": 5,
+    "AIRLINE": 1,
+    "COMPANY": 5,
+    "LOCATION": 14,
+    "BOOK": 1,
+    "NATIONALITY": 7,
+    "MOUNTAIN": 1,
+    "PERSON_ACTOR": 7,
+    "GENRE": 2,
+    "CITY": 15,
+    "ALBUM": 3,
+    "PERSON_MUSICIAN": 12,
+    "AWARD": 3,
+    "WAR": 1,
+    "PERSON_MILITARY": 4,
+    "LAKE": 1,
+    "SONG": 2,
+    "REGION": 2,
+    "COLLEGE_FOOTBALL_TEAM": 1,
+    "UNIVERSITY": 2,
+    "PERSON_POLITICIAN": 2,
+    "FOOTBALL_CLUB": 5,
+    "BASEBALL_TEAM": 2,
+    "BASKETBALL_TEAM": 1,
+    "PERSON_WRITER": 3,
+    "COUNTRY": 4
+  },
+  "replacement_source_distribution": {
+    "strict_type_bank": 121,
+    "numeric_transform_question_aware": 85,
+    "question_explicit_alternative": 26
+  },
+  "skip_reasons": {
+    "ambiguous_or_unsupported_answer_type": 195,
+    "gold_answer_shape_inconsistent_with_inferred_type": 3,
+    "residual_gold_after_strict_replacement": 1
+  }
+}
